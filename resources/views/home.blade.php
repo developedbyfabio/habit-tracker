@@ -6,4 +6,10 @@
         </h1>
     </main>
 
+    @auth
+        <p>
+            Bem vindo(a), {{ auth()->user()->name }}!!
+        </p>
+    @endauth
+
 </x-layout>

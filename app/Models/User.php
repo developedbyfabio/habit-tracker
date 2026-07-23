@@ -14,7 +14,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
     /** @use HasFactory<UserFactory> */
-    use HasFactory,;
+    use HasFactory;
 
     /**
      * Get the attributes that should be cast.
